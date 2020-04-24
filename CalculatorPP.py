@@ -1,16 +1,16 @@
 def calculator(a,b,operator):
-    if operator == 'add':
+    if operator == 'add' or 'addition':
         return(a+b)
-    elif operator == 'subtract':
+    elif operator == 'subtract' or 'sub':
         return(a-b)
-    elif operator == 'multiply':
+    elif operator == 'multiply' or 'mul':
         return(a*b)
-    elif operator == 'devide':
+    elif operator == 'devide' or 'devision' or 'dev':
         return(a/b)
-    elif operator == 'modulo':
+    elif operator == 'modulo' or 'mod' or 'remainder':
         return(a%b)
     else :
-        print("Error choose your word wisely")    
+        print("Error!.. choose your word wisely")    
 
 x=int(input())
 y=int(input())
