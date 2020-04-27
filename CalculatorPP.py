@@ -12,7 +12,6 @@ def calculator(a,b,operator):
     else :
         print("Error!.. choose your word wisely")    
 
-x=int(input())
-y=int(input())
+x,y=int(input().split)
 s=input()
 print(calculator(x,y,s))
