@@ -13,5 +13,5 @@ def calculator(a,b,operator):
         print("Error!.. choose your word wisely")    
 
 x,y=int(input().split)
-s=input()
-print(calculator(x,y,s))
+opr=input()
+print(calculator(x,y,opr))
