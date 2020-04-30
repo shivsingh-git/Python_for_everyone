@@ -1,3 +1,7 @@
+#Take as input S, a string. Write a function that replaces every odd character with the character having just higher ascii code and
+#every even character with the character having just lower ascii code. Print the value returned.
+#Sample input: abcg
+#Sample output: badf
 s=input("Enter the String")
 l=""
 j=0
