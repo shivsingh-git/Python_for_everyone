@@ -6,14 +6,14 @@
 #A
 #Competitive
 #Programmer
-s=input("Enter The Camel String: ")
-l=''
-l=s[0]
+s=input("Enter The Camel String: ")                         #taking the String as a Input
+l=''                
+l=s[0]                                                      #assigning the frst letter of the string to list l
 for i in range(1,len(s)):
-    if (s[i].isupper()==True) :
-        print(l)
-        l=''
-        l=s[i]
+    if (s[i].isupper()==True) :                             #if the parser incounters the capital letter 
+        print(l)                                            #then print the list
+        l=''                                                #making the list empty again
+        l=s[i]                                              #assigning the capital letter to the new string
     else:
-        l=l+s[i]
-print(l)
+        l=l+s[i]                                            #assinging all the lower case strings to the list
+print(l)                                                    #to print the last string after the last capital letter according to my program
