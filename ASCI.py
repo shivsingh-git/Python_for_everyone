@@ -7,7 +7,7 @@ s=input("Enter the String")
 l=""                                            #creating the new list
 j=0                                             #initializing the new variable
 x=len(s)
-for i in range(1,x+1):                          #runnig the loop from 1 to len to get the position
+for i in range(1,x+1):                          #runnig the loop from 1 to lenght of the strng to get the position
     if((i%2)==0):                               #checking if the position is odd or not
         l+=(chr(ord(s[j])-1))                   #frst convrting the char to asci,then adding 1 and finally converting it to chr 
         j+=1                                    #incrementing the value of j
